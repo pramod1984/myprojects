@@ -1,0 +1,48 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #50eecc;
+    color: #333;
+    font-family: 'calibri', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.images {
+    border-radius: 5px;
+    background-color: #fff;
+    flex: 0 0 80%;
+    height: 70vh;
+    box-shadow: 6px 6px #000;
+    position: relative;
+    background: url(img/bcg-0.jpeg) center/cover no-repeat;
+}
+.btn {
+    display: block;
+    font-size: 1.25rem;
+    margin: 1rem auto;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #6cc3d8;
+    border-radius: 8px;
+    border: none;
+    text-transform: capitalize;
+    cursor: pointer;
+    outline: none;
+}
+.prev-btn{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%,-50%)
+}
+.next-btn{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(50%,-50%)
+}
+.btn:hover{
+    background: #03596e;
+}
