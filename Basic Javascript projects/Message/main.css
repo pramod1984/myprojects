@@ -1,0 +1,33 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #6cc3d8;
+    color: #333;
+    font-family: 'calibri', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.container {
+    text-align: center;
+    padding: 2rem;
+    border-radius: 5px;
+    background-color: #fff;
+    flex: 0 0 80%;
+}
+button {
+    display: block;
+    font-size: 1.25rem;
+    margin: 1rem auto;
+    padding: 0.5rem 2rem;
+    color: #fff;
+    background: #6cc3d8;
+    border-radius: 8px;
+    border: none;
+    text-transform: capitalize;
+}
+input[type='text']{
+    padding: 0.5rem 1rem;
+    width: 30vw;
+}
