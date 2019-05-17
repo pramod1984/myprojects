@@ -6,6 +6,12 @@ sendBtn.addEventListener('click', messageDisplay);
 
 function messageDisplay(){
     let message = messageInput.value;
-    messageOutput.innerHTML = message;
-    messageInput.value = '';
+
+    if(message === ''){
+        alert('Please enter valid value. Current value is empty!')
+    }
+    else {
+        messageOutput.innerHTML = message;
+        messageInput.value = '';
+    }
 }
